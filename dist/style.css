@@ -24,9 +24,14 @@ nav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    cursor: pointer;
 }
 
 nav li a:hover {
+    background-color: #ff0000;
+}
+
+.active {
     background-color: #ff0000;
 }
 
@@ -45,7 +50,7 @@ nav li a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     max-width: 800px;
-    margin: 0 auto;
+    margin: 10px auto;
     grid-gap: 10px;
 }
 .map-image{
@@ -59,16 +64,11 @@ nav li a:hover {
     font-size: 1.5rem;
 }
 
-.contact-section a[href^="tel"]::before {
-    content: "📞 ";
-}
-
 .menu-section{
     margin-top: 2em;
 }
 
 .menu-grid{
-    border-top: 1px solid dimgrey;
     padding: 10px;
     margin:auto;
     max-width: 1000px;
