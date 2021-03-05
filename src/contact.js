@@ -1,4 +1,4 @@
-export default function contactBuilder() {
+export default () => {
   const section = document.createElement('section');
   const mapDiv = document.createElement('div');
   const addressDiv = document.createElement('div');
@@ -28,4 +28,4 @@ export default function contactBuilder() {
   section.classList.add('contact-section');
 
   return section;
-}
+};

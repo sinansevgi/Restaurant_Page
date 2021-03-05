@@ -8,7 +8,7 @@ const createNavItem = (link) => {
   return navItem;
 };
 
-export default function navbarBuilder() {
+export default () => {
   const header = document.createElement('header');
   const nav = document.createElement('nav');
   const links = document.createElement('ul');
@@ -18,4 +18,4 @@ export default function navbarBuilder() {
   nav.appendChild(links);
   header.appendChild(nav);
   return header;
-}
+};

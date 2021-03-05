@@ -1,5 +1,5 @@
 ## Restaurant Page
-This is a simple restaurant homepage created for practicing DOM manipulation by dynamically rendering page with js.
+This is a simple restaurant homepage created for practicing DOM manipulation by dynamically rendering pages with js.
 
 ![screenshot](screenshot.png)
 
@@ -22,6 +22,7 @@ This is a simple restaurant homepage created for practicing DOM manipulation by 
 * Open project directory.
 * Open dist directory.
 * Navigate index.html with your browser.
+* You can also double click or run startserver.sh from terminal to start a live server.
 
 ## Authors
 👤 **Sinan Sevgi**

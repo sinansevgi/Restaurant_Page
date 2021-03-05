@@ -23,7 +23,7 @@ const menuItem = (item) => {
   return itemContainer;
 };
 
-export default function menuBuilder() {
+export default () => {
   const section = document.createElement('section');
   const grid = document.createElement('div');
   for (let i = 1; i < 7; i += 1) {
@@ -34,4 +34,4 @@ export default function menuBuilder() {
   section.appendChild(grid);
   section.setAttribute('id', 'menu');
   return section;
-}
+};

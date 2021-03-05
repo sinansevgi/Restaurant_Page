@@ -1,4 +1,4 @@
-export default function homeBuilder() {
+export default () => {
   const section = document.createElement('section');
   const welcomeMessage = document.createElement('h1');
   const welcomeImage = document.createElement('img');
@@ -14,4 +14,4 @@ export default function homeBuilder() {
   section.setAttribute('id', 'home');
   section.classList.add('top-section');
   return section;
-}
+};
