@@ -1,0 +1,89 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+nav li {
+    float: left;
+    border-right:1px solid #bbb;
+}
+
+nav li:last-child {
+    border-right: none;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+nav li a:hover {
+    background-color: #ff0000;
+}
+
+.active {
+    background-color: #ff0000;
+}
+
+.top-section {
+    text-align: center;
+    margin: 0 auto;
+    max-width: 800px;
+}
+.top-section .pizza-img {
+    width: 100%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin-bottom: 20px;
+}
+
+.contact-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width: 800px;
+    margin: 10px auto;
+    grid-gap: 10px;
+}
+.map-image{
+    width: 100%;
+    border-radius: 5px;
+}
+
+.address-container{
+    margin: auto;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.menu-section{
+    margin-top: 2em;
+}
+
+.menu-grid{
+    padding: 10px;
+    margin:auto;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 20px;
+ }
+.menu-item{
+   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   text-align: center;
+}
+.menu-image{
+    width: 100%;
+}
+
+.menu-text {
+    padding: 10px;
+}
