@@ -19,9 +19,15 @@ This is a simple restaurant homepage created for practicing DOM manipulation by 
     ```
     git clone https://github.com/sinansevgi/Restaurant_Page.git
     ```
+#### Without Node.js
 * Open project directory.
 * Open dist directory.
 * Navigate index.html with your browser.
+
+#### With Node.js
+* Open project directory.
+* Run the npm install 
+* npm run start:dev to start the start application.
 * You can also double click or run startserver.sh from terminal to start a live server.
 
 ## Authors
